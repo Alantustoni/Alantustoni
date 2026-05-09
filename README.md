@@ -1,16 +1,29 @@
-## Hi there 👋
+# 👋 Alan Costa
 
-<!--
-**Alantustoni/Alantustoni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Python & Web Developer
 
-Here are some ideas to get you started:
+Building automation systems, dashboards and modern web solutions with Python.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Technologies
+- Python
+- Streamlit
+- Pandas
+- SQL
+- HTML/CSS
+- Git
+- APIs
+
+---
+
+## 📌 Current Projects
+- Financial dashboards
+- Automation systems
+- Error analysis tools
+- Web applications
+
+---
+
+## 📫 Contact
+- LinkedIn
