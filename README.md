@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=200&section=header&text=Alan%20Tustoni&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Pagamentos%20%7C%20Integra%C3%A7%C3%A3o%20Banc%C3%A1ria%20%7C%20Python&descAlignY=60&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=200&section=header&text=Alan%20Tustoni&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Constru%C3%A7%C3%A3o%20r%C3%A1pida%20com%20IA%20%7C%20Pagamentos%20%7C%20Python&descAlignY=60&descSize=20" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=720&lines=Dev+que+j%C3%A1+vive+dentro+de+CNAB240%2C+SISPAG+e+Pix;Transformo+arquivos+banc%C3%A1rios+em+c%C3%B3digo+confi%C3%A1vel;Python+%2B+SQL+%2B+automa%C3%A7%C3%A3o+financeira;Estudante+de+ADS+%7C+UNICID+%7C+formatura+2027" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=Construo+software+r%C3%A1pido+usando+IA+%E2%80%94+e+coloco+em+produ%C3%A7%C3%A3o;Ferramentas+minhas+rodando+todo+dia+num+financeiro+real;CNAB240%2C+SISPAG%2C+Pix+e+concilia%C3%A7%C3%A3o+banc%C3%A1ria+por+dentro;Python+%C2%B7+TypeScript+%C2%B7+automa%C3%A7%C3%A3o+%C2%B7+ADS+%40+UNICID" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -16,72 +16,90 @@
 
 ## 🧭 Sobre mim
 
-Trabalho com **infraestrutura de pagamentos** no dia a dia: arquivos **CNAB240**, remessas **SISPAG**, **Pix** e integração com bancos (Itaú) dentro de um ERP corporativo (Senior). É um tipo de experiência que pouca gente júnior tem — eu já estive do lado de quem precisa que o arquivo de 240 posições **não seja rejeitado às 17h de uma sexta**.
+Eu uso IA como ferramenta de engenharia, não como atalho: especifico o problema, gero com **Claude Code, ChatGPT e Codex**, escrevo testes, anonimizo dados e publico. Foi assim que as três ferramentas abaixo nasceram — e elas rodam **todos os dias** no setor de contas a pagar onde trabalho.
 
-Em paralelo, curso **Análise e Desenvolvimento de Sistemas (UNICID)**, com formatura prevista para **2027**, e estou levando essa bagagem de operação financeira para o código: automação em **Python**, validação de layouts bancários e conciliação técnica.
+O domínio é o que me diferencia: vivo dentro de **CNAB240**, remessas **SISPAG**, **Pix**, DDA e conciliação **ERP × banco**. Sei o que quebra um arquivo de 240 posições e o que um banco rejeita. Em paralelo, curso **Análise e Desenvolvimento de Sistemas (UNICID)**, formatura prevista para **2027**.
 
 ```python
 alan = {
-    "foco":       ["pagamentos", "integração bancária", "automação financeira"],
-    "dominio":    ["CNAB240", "SISPAG", "Pix", "conciliação", "ERP Senior"],
-    "stack":      ["Python", "SQL", "Pandas", "TypeScript", "HTML/CSS"],
-    "aprendendo": ["Front-End (React)", "APIs REST", "testes automatizados"],
-    "objetivo":   "construir produtos financeiros que funcionam de verdade no Brasil",
+    "construo_com":  ["Claude Code", "ChatGPT", "Codex", "Lovable", "n8n"],
+    "linguagens":    ["Python", "TypeScript", "SQL"],
+    "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
+    "em_producao":   3,   # ferramentas em uso diário num financeiro real
+    "testes":        165, # pytest + node --test, todos no CI
+    "proximo_passo": "transformar isso em produto",
 }
 ```
+
+---
+
+## 🚀 Em produção
+
+Código real, com testes e CI, extraído das ferramentas que uso no trabalho. Todos os dados nos repositórios são sintéticos.
+
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <h3 align="center">🏦 ALAN Suite</h3>
+      <p align="center">
+        <a href="https://github.com/Alantustoni/alan-suite"><img src="https://img.shields.io/badge/repo-alan--suite-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/alan-suite/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/alan-suite/actions/workflows/tests.yml/badge.svg" /></a>
+      </p>
+      <p>App desktop de contas a pagar: junta e valida <b>.RET CNAB240</b> (Itaú → Bradesco, trailers recalculados), combina retornos <b>SISPAG</b>, cruza <b>DDA × banco</b> e concilia <b>remessa ERP × banco</b> em 3 passadas. Substituiu 5 executáveis antigos. <b>106 testes.</b></p>
+      <p align="center"><code>Python</code> <code>CustomTkinter</code> <code>pandas</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">🧾 cnab240-tools</h3>
+      <p align="center">
+        <a href="https://github.com/Alantustoni/cnab240-tools"><img src="https://img.shields.io/badge/repo-cnab240--tools-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/cnab240-tools/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/cnab240-tools/actions/workflows/tests.yml/badge.svg" /></a>
+      </p>
+      <p>Biblioteca Python, <b>só stdlib</b>, extraída da suíte: leitura e fusão de .RET, segmento G, fator de vencimento do código de barras, retorno SISPAG. Vem com <code>examples/demo.py</code> que gera arquivos sintéticos. <b>44 testes</b>, CI Ubuntu + Windows.</p>
+      <p align="center"><code>Python</code> <code>pytest</code> <code>wheel</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">📬 controle-notas</h3>
+      <p align="center">
+        <a href="https://github.com/Alantustoni/controle-notas-office-script"><img src="https://img.shields.io/badge/repo-controle--notas-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/controle-notas-office-script/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/controle-notas-office-script/actions/workflows/tests.yml/badge.svg" /></a>
+      </p>
+      <p><b>Office Script + Power Automate</b>: a cada e-mail de Compras, lê as tabelas do corpo e registra as notas fiscais no Excel. Idempotente por ID, alerta duplicidade sem bloquear, protege contra injeção de fórmula. Em produção desde set/2026. <b>15 testes.</b></p>
+      <p align="center"><code>TypeScript</code> <code>Node</code> <code>Power Automate</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧪 Protótipos e experimentos
+
+| Projeto | O que é | Como foi feito |
+|---|---|---|
+| [**ReForma**](https://github.com/Alantustoni/reforma-site) · [site](https://reforma-site-production.up.railway.app) | Plataforma de doação de sobras de material de construção (coordeno o projeto na faculdade) | HTML/CSS/JS, deploy no Railway |
+| [**ProcessIQ**](https://github.com/Alantustoni/processiq-insightful) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; motor de análise é o próximo passo |
+| [**BossFit**](https://github.com/Alantustoni/bossfit-fitness-platform) | Gerador de treino adaptativo com progressão de carga e coach com IA | Lovable + Supabase + Edge Function com LLM |
+| Cliente WebSocket de odds ao vivo | Leitura de feeds em tempo real por engenharia reversa (DevTools) + alertas no Telegram | Python, n8n, Railway, API da Anthropic — ainda não publicado |
 
 ---
 
 ## 🛠️ Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,postgres,mysql,git,github,html,css,js,ts,react,tailwind,vscode&perline=6" alt="stack" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,postgres,mysql,react,tailwind,html,css,git,github,githubactions,vscode&perline=7" alt="stack" />
 </div>
 
 <br/>
 
 <div align="center">
 
-| Domínio financeiro | Como eu uso |
+| Domínio financeiro | O que eu faço com isso |
 |---|---|
-| **CNAB240** | Leitura, geração e validação de remessa/retorno; diagnóstico de rejeições |
-| **SISPAG (Itaú)** | Montagem de lotes de pagamento, TED, boleto, Pix |
-| **Pix** | Chaves, formatação de CNPJ/CPF no layout, tratamento de retorno |
-| **Conciliação** | Cruzamento ERP × extrato × retorno bancário |
+| **CNAB240** | Leitura, geração, fusão e validação de remessa/retorno; recálculo de trailers; diagnóstico de rejeição |
+| **SISPAG (Itaú)** | Combinação de retornos, lotes, segmentos A/B/J |
+| **Boleto / DDA** | Vencimento pelo fator do código de barras, cruzamento DDA × agendamentos |
+| **Conciliação** | Remessa ERP × extrato × retorno em passadas (exato → janela → fuzzy) |
 
 </div>
-
----
-
-## 🚀 Projetos
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">🏗️ ReForma</h3>
-      <p align="center">
-        <a href="https://github.com/Alantustoni/reforma-site"><img src="https://img.shields.io/badge/repo-reforma--site-1d4ed8?style=flat-square&logo=github" /></a>
-        <a href="https://reforma-site-production.up.railway.app"><img src="https://img.shields.io/badge/demo-online-16a34a?style=flat-square&logo=railway" /></a>
-      </p>
-      <p>Plataforma para doação de sobras de material de construção. Site publicado no Railway; eu coordeno o projeto (escopo, catálogo, documentação). <b>HTML · CSS · JS</b></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">📊 ProcessIQ</h3>
-      <p align="center">
-        <a href="https://github.com/Alantustoni/processiq-insightful"><img src="https://img.shields.io/badge/repo-processiq-1d4ed8?style=flat-square&logo=github" /></a>
-        <a href="https://processiq-insightful.lovable.app"><img src="https://img.shields.io/badge/demo-online-16a34a?style=flat-square" /></a>
-      </p>
-      <p>Protótipo de SaaS que transforma planilhas de pequenas empresas em alertas e indicadores. Validação de ideia feita com Lovable; motor de análise em construção. <b>React · TypeScript</b></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🏋️ BossFit</h3>
-      <p align="center">
-        <a href="https://github.com/Alantustoni/bossfit-fitness-platform"><img src="https://img.shields.io/badge/repo-bossfit-1d4ed8?style=flat-square&logo=github" /></a>
-      </p>
-      <p>Plataforma fitness com gerador de treino por objetivo, progressão de carga, detecção de fadiga e coach com IA. Protótipo construído com Lovable + Supabase. <b>React · TypeScript · Supabase</b></p>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -112,7 +130,7 @@ alan = {
 
 ### 💬 Vamos conversar?
 
-Se você trabalha com **fintech, ERP ou integração bancária** e quer trocar ideia sobre CNAB, Pix ou automação financeira, me chama no [LinkedIn](https://www.linkedin.com/in/alantustoni).
+Se você trabalha com **fintech, ERP, automação financeira ou produtos construídos com IA**, me chama no [LinkedIn](https://www.linkedin.com/in/alantustoni).
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=120&section=footer" width="100%"/>
 
