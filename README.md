@@ -40,10 +40,10 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
 <table>
   <tr>
     <td width="34%" valign="top">
-      <h3 align="center">🏦 ALAN Suite</h3>
+      <h3 align="center">🏦 Contas a Pagar Suite</h3>
       <p align="center">
-        <a href="https://github.com/Alantustoni/alan-suite"><img src="https://img.shields.io/badge/repo-alan--suite-1d4ed8?style=flat-square&logo=github" /></a>
-        <a href="https://github.com/Alantustoni/alan-suite/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/alan-suite/actions/workflows/tests.yml/badge.svg" /></a>
+        <a href="https://github.com/Alantustoni/contas-a-pagar-suite"><img src="https://img.shields.io/badge/repo-contas--a--pagar--suite-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/contas-a-pagar-suite/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/contas-a-pagar-suite/actions/workflows/tests.yml/badge.svg" /></a>
       </p>
       <p>App desktop de contas a pagar: junta e valida <b>.RET CNAB240</b> (Itaú → Bradesco, trailers recalculados), combina retornos <b>SISPAG</b>, cruza <b>DDA × banco</b> e concilia <b>remessa ERP × banco</b> em 3 passadas. Substituiu 5 executáveis antigos. <b>106 testes.</b></p>
       <p align="center"><code>Python</code> <code>CustomTkinter</code> <code>pandas</code></p>
@@ -58,10 +58,10 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
       <p align="center"><code>Python</code> <code>pytest</code> <code>wheel</code></p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">📬 controle-notas</h3>
+      <h3 align="center">📬 email-nota-excel</h3>
       <p align="center">
-        <a href="https://github.com/Alantustoni/controle-notas-office-script"><img src="https://img.shields.io/badge/repo-controle--notas-1d4ed8?style=flat-square&logo=github" /></a>
-        <a href="https://github.com/Alantustoni/controle-notas-office-script/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/controle-notas-office-script/actions/workflows/tests.yml/badge.svg" /></a>
+        <a href="https://github.com/Alantustoni/email-nota-excel"><img src="https://img.shields.io/badge/repo-email--nota--excel-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/email-nota-excel/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/email-nota-excel/actions/workflows/tests.yml/badge.svg" /></a>
       </p>
       <p><b>Office Script + Power Automate</b>: a cada e-mail de Compras, lê as tabelas do corpo e registra as notas fiscais no Excel. Idempotente por ID, alerta duplicidade sem bloquear, protege contra injeção de fórmula. Em produção desde set/2026. <b>15 testes.</b></p>
       <p align="center"><code>TypeScript</code> <code>Node</code> <code>Power Automate</code></p>
@@ -76,8 +76,8 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
 | Projeto | O que é | Como foi feito |
 |---|---|---|
 | [**ReForma**](https://github.com/Alantustoni/reforma-site) · [site](https://reforma-site-production.up.railway.app) | Plataforma de doação de sobras de material de construção (coordeno o projeto na faculdade) | HTML/CSS/JS, deploy no Railway |
-| [**ProcessIQ**](https://github.com/Alantustoni/processiq-insightful) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; motor de análise é o próximo passo |
-| [**BossFit**](https://github.com/Alantustoni/bossfit-fitness-platform) | Gerador de treino adaptativo com progressão de carga e coach com IA | Lovable + Supabase + Edge Function com LLM |
+| [**ProcessIQ**](https://github.com/Alantustoni/processiq) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; motor de análise é o próximo passo |
+| [**BossFit**](https://github.com/Alantustoni/bossfit) | Gerador de treino adaptativo com progressão de carga e coach com IA | Lovable + Supabase + Edge Function com LLM |
 | Cliente WebSocket de odds ao vivo | Leitura de feeds em tempo real por engenharia reversa (DevTools) + alertas no Telegram | Python, n8n, Railway, API da Anthropic — ainda não publicado |
 
 ---
