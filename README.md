@@ -16,7 +16,7 @@
 
 ## 🧭 Sobre mim
 
-Eu uso IA como ferramenta de engenharia, não como atalho: especifico o problema, gero com **Claude Code, ChatGPT e Codex**, escrevo testes, anonimizo dados e publico. Foi assim que as três ferramentas abaixo nasceram — e elas rodam **todos os dias** no setor de contas a pagar onde trabalho.
+Eu uso IA como ferramenta de engenharia, não como atalho: especifico o problema, gero com **Claude Code, ChatGPT e Codex**, escrevo testes, anonimizo dados e publico. Foi assim que as ferramentas abaixo nasceram: três rodam **todos os dias** no setor de contas a pagar onde trabalho, e a quarta rodou 24/7 por dois meses até a minha própria auditoria concluir que a estratégia não tinha edge — e eu publiquei o resultado negativo.
 
 O domínio é o que me diferencia: vivo dentro de **CNAB240**, remessas **SISPAG**, **Pix**, DDA e conciliação **ERP × banco**. Sei o que quebra um arquivo de 240 posições e o que um banco rejeita. Em paralelo, curso **Análise e Desenvolvimento de Sistemas (UNICID)**, formatura prevista para **2027**.
 
@@ -25,8 +25,8 @@ alan = {
     "construo_com":  ["Claude Code", "ChatGPT", "Codex", "Lovable", "n8n"],
     "linguagens":    ["Python", "TypeScript", "SQL"],
     "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
-    "em_producao":   3,   # ferramentas em uso diário num financeiro real
-    "testes":        165, # pytest + node --test, todos no CI
+    "em_producao":   4,   # 3 no financeiro onde trabalho + 1 screener 24/7 no Railway
+    "testes":        218, # pytest + node --test, todos no CI
     "proximo_passo": "transformar isso em produto",
 }
 ```
@@ -35,11 +35,11 @@ alan = {
 
 ## 🚀 Em produção
 
-Código real, com testes e CI, extraído das ferramentas que uso no trabalho. Todos os dados nos repositórios são sintéticos.
+Código real, com testes e CI. Dados dos repositórios financeiros são sintéticos.
 
 <table>
   <tr>
-    <td width="34%" valign="top">
+    <td width="50%" valign="top">
       <h3 align="center">🏦 Contas a Pagar Suite</h3>
       <p align="center">
         <a href="https://github.com/Alantustoni/contas-a-pagar-suite"><img src="https://img.shields.io/badge/repo-contas--a--pagar--suite-1d4ed8?style=flat-square&logo=github" /></a>
@@ -48,7 +48,7 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
       <p>App desktop de contas a pagar: junta e valida <b>.RET CNAB240</b> (Itaú → Bradesco, trailers recalculados), combina retornos <b>SISPAG</b>, cruza <b>DDA × banco</b> e concilia <b>remessa ERP × banco</b> em 3 passadas. Substituiu 5 executáveis antigos. <b>106 testes.</b></p>
       <p align="center"><code>Python</code> <code>CustomTkinter</code> <code>pandas</code></p>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3 align="center">🧾 cnab240-tools</h3>
       <p align="center">
         <a href="https://github.com/Alantustoni/cnab240-tools"><img src="https://img.shields.io/badge/repo-cnab240--tools-1d4ed8?style=flat-square&logo=github" /></a>
@@ -57,7 +57,9 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
       <p>Biblioteca Python, <b>só stdlib</b>, extraída da suíte: leitura e fusão de .RET, segmento G, fator de vencimento do código de barras, retorno SISPAG. Vem com <code>examples/demo.py</code> que gera arquivos sintéticos. <b>44 testes</b>, CI Ubuntu + Windows.</p>
       <p align="center"><code>Python</code> <code>pytest</code> <code>wheel</code></p>
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">📬 email-nota-excel</h3>
       <p align="center">
         <a href="https://github.com/Alantustoni/email-nota-excel"><img src="https://img.shields.io/badge/repo-email--nota--excel-1d4ed8?style=flat-square&logo=github" /></a>
@@ -65,6 +67,15 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
       </p>
       <p><b>Office Script + Power Automate</b>: a cada e-mail de Compras, lê as tabelas do corpo e registra as notas fiscais no Excel. Idempotente por ID, alerta duplicidade sem bloquear, protege contra injeção de fórmula. Em produção desde set/2026. <b>15 testes.</b></p>
       <p align="center"><code>TypeScript</code> <code>Node</code> <code>Power Automate</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📈 2A Crypto Screener</h3>
+      <p align="center">
+        <a href="https://github.com/Alantustoni/crypto-screener"><img src="https://img.shields.io/badge/repo-crypto--screener-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/crypto-screener/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/crypto-screener/actions/workflows/tests.yml/badge.svg" /></a>
+      </p>
+      <p>Screener dos 100 pares mais líquidos da Binance: 15 indicadores, score por par, alertas no Telegram, dashboard FastAPI, auto-calibração e backtest. <b>55 commits em 6 semanas.</b> A <a href="https://github.com/Alantustoni/crypto-screener/blob/main/AUDITORIA_E_EDGE_2A.md">auditoria</a> com dados reais e custos concluiu: sem edge, não operar. <b>53 testes.</b></p>
+      <p align="center"><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Railway</code></p>
     </td>
   </tr>
 </table>
@@ -78,7 +89,7 @@ Código real, com testes e CI, extraído das ferramentas que uso no trabalho. To
 | [**ReForma**](https://github.com/Alantustoni/reforma-site) · [site](https://reforma-site-production.up.railway.app) | Plataforma de doação de sobras de material de construção (coordeno o projeto na faculdade) | HTML/CSS/JS, deploy no Railway |
 | [**ProcessIQ**](https://github.com/Alantustoni/processiq) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; motor de análise é o próximo passo |
 | [**BossFit**](https://github.com/Alantustoni/bossfit) | Gerador de treino adaptativo com progressão de carga e coach com IA | Lovable + Supabase + Edge Function com LLM |
-| Cliente WebSocket de odds ao vivo | Leitura de feeds em tempo real por engenharia reversa (DevTools) + alertas no Telegram | Python, n8n, Railway, API da Anthropic — ainda não publicado |
+| Cliente WebSocket de odds ao vivo | Leitura de feeds em tempo real por engenharia reversa (DevTools) + alertas no Telegram | Python, n8n — ainda não publicado |
 
 ---
 
