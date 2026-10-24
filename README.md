@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=200&section=header&text=Alan%20Tustoni&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Constru%C3%A7%C3%A3o%20r%C3%A1pida%20com%20IA%20%7C%20Pagamentos%20%7C%20Python&descAlignY=60&descSize=20" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=Construo+software+r%C3%A1pido+usando+IA+%E2%80%94+e+coloco+em+produ%C3%A7%C3%A3o;Ferramentas+minhas+rodando+todo+dia+num+financeiro+real;CNAB240%2C+SISPAG%2C+Pix+e+concilia%C3%A7%C3%A3o+banc%C3%A1ria+por+dentro;Python+%C2%B7+TypeScript+%C2%B7+automa%C3%A7%C3%A3o+%C2%B7+ADS+%40+UNICID" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=900&height=50&lines=Construo+software+com+IA+e+coloco+em+produ%C3%A7%C3%A3o;Ferramentas+minhas+rodam+todo+dia+num+financeiro+real;CNAB240%2C+SISPAG%2C+Pix+e+concilia%C3%A7%C3%A3o+por+dentro;Python+%C2%B7+TypeScript+%C2%B7+automa%C3%A7%C3%A3o+%C2%B7+ADS+UNICID" alt="Typing SVG" /></a>
 
 <br/>
 
