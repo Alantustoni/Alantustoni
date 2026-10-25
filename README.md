@@ -26,7 +26,8 @@ alan = {
     "linguagens":    ["Python", "TypeScript", "SQL"],
     "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
     "em_producao":   4,   # 3 no financeiro onde trabalho + 1 screener 24/7 no Railway
-    "testes":        218, # pytest + node --test, todos no CI
+    "em_construcao": "processiq-core",
+    "testes":        276, # pytest + node --test, todos no CI
     "proximo_passo": "transformar isso em produto",
 }
 ```
@@ -82,12 +83,30 @@ Código real, com testes e CI. Dados dos repositórios financeiros são sintéti
 
 ---
 
+## 🔨 Em construção
+
+<table>
+  <tr>
+    <td valign="top">
+      <h3>🧩 processiq-core</h3>
+      <p>
+        <a href="https://github.com/Alantustoni/processiq-core"><img src="https://img.shields.io/badge/repo-processiq--core-1d4ed8?style=flat-square&logo=github" /></a>
+        <a href="https://github.com/Alantustoni/processiq-core/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/processiq-core/actions/workflows/tests.yml/badge.svg" /></a>
+      </p>
+      <p>Motor de análise de planilhas de contas a pagar para pequenas empresas: lê o Excel/CSV que a empresa já usa, reconhece as colunas por sinônimo e aponta NF duplicada, fornecedor cadastrado duas vezes (por raiz de CNPJ ou nome parecido), vencidos, valor fora do padrão e CNPJ inválido. É o back-end do ProcessIQ, sendo construído em público. <b>58 testes</b>, CI Ubuntu + Windows.</p>
+      <p><code>Python</code> <code>openpyxl</code> <code>rapidfuzz</code> <code>pytest</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🧪 Protótipos e experimentos
 
 | Projeto | O que é | Como foi feito |
 |---|---|---|
 | [**ReForma**](https://github.com/Alantustoni/reforma-site) · [site](https://reforma-site-production.up.railway.app) | Plataforma de doação de sobras de material de construção (coordeno o projeto na faculdade) | HTML/CSS/JS, deploy no Railway |
-| [**ProcessIQ**](https://github.com/Alantustoni/processiq) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; motor de análise é o próximo passo |
+| [**ProcessIQ**](https://github.com/Alantustoni/processiq) · [demo](https://processiq-insightful.lovable.app) | SaaS que transforma planilhas de contas a pagar de pequenas empresas em alertas | Protótipo de UI com Lovable; o motor real está em [processiq-core](https://github.com/Alantustoni/processiq-core) |
 | [**BossFit**](https://github.com/Alantustoni/bossfit) | Gerador de treino adaptativo com progressão de carga e coach com IA | Lovable + Supabase + Edge Function com LLM |
 | Cliente WebSocket de odds ao vivo | Leitura de feeds em tempo real por engenharia reversa (DevTools) + alertas no Telegram | Python, n8n — ainda não publicado |
 
