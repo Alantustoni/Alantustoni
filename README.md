@@ -16,13 +16,19 @@
 
 ## 🧭 Sobre mim
 
-Eu uso IA como ferramenta de engenharia, não como atalho: especifico o problema, gero com **Claude Code, ChatGPT e Codex**, escrevo testes, anonimizo dados e publico. Foi assim que as ferramentas abaixo nasceram: três rodam **todos os dias** no setor de contas a pagar onde trabalho, e a quarta rodou 24/7 por dois meses até a minha própria auditoria concluir que a estratégia não tinha edge — e eu publiquei o resultado negativo.
+**Dev em pagamentos · Python · Automação · IA**
 
-O domínio é o que me diferencia: vivo dentro de **CNAB240**, remessas **SISPAG**, **Pix**, DDA e conciliação **ERP × banco**. Sei o que quebra um arquivo de 240 posições e o que um banco rejeita. Em paralelo, curso **Análise e Desenvolvimento de Sistemas (UNICID)**, formatura prevista para **2027**.
+Trabalho há cinco anos no contas a pagar e transformo os gargalos desse processo em software: ferramentas em Python que rodam todos os dias no setor, com testes automatizados e integração contínua.
+
+Uso IA (Claude Code e Codex) como ferramenta de engenharia: especifico o problema, gero, escrevo testes, anonimizo dados e publico. Quando um projeto não entrega o que promete, documento — o screener de cripto abaixo tem uma auditoria pública concluindo que a estratégia não tinha edge.
+
+Domínio: CNAB240, remessas e retornos SISPAG, Pix, DDA e conciliação ERP × banco. Sei o que quebra um arquivo de 240 posições e o que o banco rejeita.
+
+Curso Análise e Desenvolvimento de Sistemas (UNICID), formatura prevista para 2027.
 
 ```python
 alan = {
-    "construo_com":  ["Claude Code", "ChatGPT", "Codex", "Lovable", "n8n"],
+    "construo_com":  ["Claude Code", "Codex", "Lovable", "n8n"],
     "linguagens":    ["Python", "TypeScript", "SQL"],
     "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
     "em_producao":   4,   # 3 no financeiro onde trabalho + 1 screener 24/7 no Railway
