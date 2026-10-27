@@ -18,7 +18,7 @@
 
 **Dev em pagamentos · Python · Automação · IA**
 
-Construo software para o backoffice financeiro: ferramentas em Python que leem, validam e conciliam arquivos bancários — CNAB240, SISPAG, DDA, Pix — e que rodam todos os dias num setor de contas a pagar real. **4 projetos em produção**, **292 testes automatizados**, CI em todos.
+Construo software para o backoffice financeiro: ferramentas em Python que leem, validam e conciliam arquivos bancários — CNAB240, SISPAG, DDA, Pix — e que rodam todos os dias num setor de contas a pagar real. **4 projetos em produção**, **296 testes automatizados**, CI em todos.
 
 **Automatizei o meu próprio trabalho:** cinco anos operando contas a pagar me ensinaram na prática o que quebra um arquivo de 240 posições, o que o banco rejeita e onde a conciliação do ERP falha. É essa regra de negócio que transformo em código.
 
@@ -33,7 +33,7 @@ alan = {
     "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
     "em_producao":   4,   # 3 no financeiro onde trabalho + 1 screener 24/7 no Railway
     "em_construcao": "processiq-core",
-    "testes":        292, # pytest + node --test, todos no CI
+    "testes":        296, # pytest + node --test, todos no CI
     "proximo_passo": "transformar isso em produto",
 }
 ```
@@ -72,7 +72,7 @@ Código real, com testes e CI. Dados dos repositórios financeiros são sintéti
         <a href="https://github.com/Alantustoni/email-nota-excel"><img src="https://img.shields.io/badge/repo-email--nota--excel-1d4ed8?style=flat-square&logo=github" /></a>
         <a href="https://github.com/Alantustoni/email-nota-excel/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/email-nota-excel/actions/workflows/tests.yml/badge.svg" /></a>
       </p>
-      <p><b>Office Script + Power Automate</b>: a cada e-mail de Compras, lê as tabelas do corpo e registra as notas fiscais no Excel. Idempotente por ID, alerta duplicidade sem bloquear, protege contra injeção de fórmula. Em produção desde set/2026. <b>15 testes.</b></p>
+      <p><b>Office Script + Power Automate</b>: a cada e-mail de Compras, lê as tabelas do corpo e registra as notas fiscais no Excel. Idempotente por ID, alerta duplicidade sem bloquear, protege contra injeção de fórmula. Em produção desde set/2026: <b>1.081 registros de 122 e-mails no primeiro mês, sem digitação</b>. <b>19 testes.</b></p>
       <p align="center"><code>TypeScript</code> <code>Node</code> <code>Power Automate</code></p>
     </td>
     <td width="50%" valign="top">
