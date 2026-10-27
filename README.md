@@ -18,7 +18,7 @@
 
 **Dev em pagamentos · Python · Automação · IA**
 
-Construo software para o backoffice financeiro: ferramentas em Python que leem, validam e conciliam arquivos bancários — CNAB240, SISPAG, DDA, Pix — e que rodam todos os dias num setor de contas a pagar real. **4 projetos em produção**, **286 testes automatizados**, CI em todos.
+Construo software para o backoffice financeiro: ferramentas em Python que leem, validam e conciliam arquivos bancários — CNAB240, SISPAG, DDA, Pix — e que rodam todos os dias num setor de contas a pagar real. **4 projetos em produção**, **292 testes automatizados**, CI em todos.
 
 **Automatizei o meu próprio trabalho:** cinco anos operando contas a pagar me ensinaram na prática o que quebra um arquivo de 240 posições, o que o banco rejeita e onde a conciliação do ERP falha. É essa regra de negócio que transformo em código.
 
@@ -33,7 +33,7 @@ alan = {
     "dominio":       ["CNAB240", "SISPAG", "Pix", "DDA", "conciliação", "ERP"],
     "em_producao":   4,   # 3 no financeiro onde trabalho + 1 screener 24/7 no Railway
     "em_construcao": "processiq-core",
-    "testes":        286, # pytest + node --test, todos no CI
+    "testes":        292, # pytest + node --test, todos no CI
     "proximo_passo": "transformar isso em produto",
 }
 ```
@@ -99,7 +99,7 @@ Código real, com testes e CI. Dados dos repositórios financeiros são sintéti
         <a href="https://github.com/Alantustoni/processiq-core"><img src="https://img.shields.io/badge/repo-processiq--core-1d4ed8?style=flat-square&logo=github" /></a>
         <a href="https://github.com/Alantustoni/processiq-core/actions/workflows/tests.yml"><img src="https://github.com/Alantustoni/processiq-core/actions/workflows/tests.yml/badge.svg" /></a>
       </p>
-      <p>Motor de análise de planilhas de contas a pagar para pequenas empresas: lê o Excel/CSV que a empresa já usa, reconhece as colunas por sinônimo e aponta NF duplicada, fornecedor cadastrado duas vezes (por raiz de CNPJ ou nome parecido), vencidos, valor fora do padrão e CNPJ inválido. Motor puro + API FastAPI em camadas separadas (o motor não sabe que a API existe), Swagger, Dockerfile. Construído em público. <b>68 testes</b>, CI Ubuntu + Windows.</p>
+      <p>Motor de análise de planilhas de contas a pagar para pequenas empresas: lê o Excel/CSV que a empresa já usa, reconhece as colunas por sinônimo e aponta NF duplicada, fornecedor cadastrado duas vezes (por raiz de CNPJ ou nome parecido), vencidos, valor fora do padrão e CNPJ inválido. Motor puro + API FastAPI em camadas separadas (o motor não sabe que a API existe), Swagger, Dockerfile, relatório Excel com linhas marcadas. Construído em público. <b>74 testes</b>, CI Ubuntu + Windows.</p>
       <p><code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>pytest</code> <code>Docker</code></p>
     </td>
   </tr>
