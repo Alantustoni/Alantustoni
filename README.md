@@ -20,7 +20,7 @@
 
 Construo software para o backoffice financeiro: ferramentas em Python que leem, validam e conciliam arquivos bancários — CNAB240, SISPAG, DDA, Pix — e que rodam todos os dias num setor de contas a pagar real. **4 projetos em produção**, **276 testes automatizados**, CI em todos.
 
-**O domínio vem de dentro:** cinco anos operando contas a pagar me ensinaram na prática o que quebra um arquivo de 240 posições, o que o banco rejeita e onde a conciliação do ERP falha. É essa regra de negócio que transformo em código.
+**Automatizei o meu próprio trabalho:** cinco anos operando contas a pagar me ensinaram na prática o que quebra um arquivo de 240 posições, o que o banco rejeita e onde a conciliação do ERP falha. É essa regra de negócio que transformo em código.
 
 Uso IA (Claude Code e Codex) como ferramenta de engenharia — especifico, gero, testo, anonimizo e publico — e documento quando um projeto não entrega o que promete: o screener de cripto abaixo tem uma auditoria pública concluindo que a estratégia não tinha edge.
 
